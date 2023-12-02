@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void TheDeathWeapon()
         {
-            Console.WriteLine("The witch Poisoned a big shinny juiciy Apple");
+            Console.WriteLine("The big shinny juiciy Poisoned apple from the stepmom Apple.");
         }
     }
 }

@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void TheDeathWeapon()
         {
-            Console.WriteLine("Mulan is the top Karate fighter utulize the skill to max");
+            Console.WriteLine("Karate. Mulan is the top Karate fighter utulize the skill to max.");
         }
     }
 }

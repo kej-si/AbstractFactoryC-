@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void Act()
         {
-            Console.WriteLine("The Pirates are the ones to fight against");
+            Console.WriteLine("The Neverland Kids. They fight against The Pirates.");
         }
     }
 }

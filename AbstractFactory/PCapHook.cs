@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void Attack()
         {
-            Console.WriteLine("Kick out of Neverland Peter and the kids");
+            Console.WriteLine("Cap. Hook. His biggest dream is to kick out of Neverland Peter and the kids.");
         }
     }
 }

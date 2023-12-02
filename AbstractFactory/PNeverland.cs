@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void Display()
         {
-            Console.WriteLine("Peter Pan and Cap Hook live in Neverland and always fight there");
+            Console.WriteLine("Peter Pan and Cap Hook live in Neverland and always fight there.");
         }
     }
 }

@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void TheDeathWeapon()
         {
-            Console.WriteLine("Swords are the element to be used against the Pirates");
+            Console.WriteLine("Swords. They are the element to be used against the Pirates.");
         }
     }
 }

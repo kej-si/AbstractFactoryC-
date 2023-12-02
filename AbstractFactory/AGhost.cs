@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void TheDeathWeapon()
         {
-            Console.WriteLine("Rasputin is kinda dead and he has ghost magical power");
+            Console.WriteLine("Physicall Strength. Rasputin is kinda dead and he has ghost magical power.");
         }
     }
 }

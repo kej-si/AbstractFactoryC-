@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void Display()
         {
-            Console.WriteLine("Here happens the last confrontation between Anastasia, Rasputin, Dimitri, the white mouse, and the rest of the ghosts");
+            Console.WriteLine("Pont Alexandre III is the place where the last confrontation between Anastasia, Rasputin, Dimitri, the white mouse, and the rest of the ghosts happens.");
         }
     }
 }

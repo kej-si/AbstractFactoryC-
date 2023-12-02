@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void Act()
         {
-            Console.WriteLine("Fight Hun Army to protect China and the King");
+            Console.WriteLine("Mulan. She fights against Hun Army to protect China and the King.");
         }
     }
 }

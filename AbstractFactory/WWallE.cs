@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void Act()
         {
-            Console.WriteLine("Collect and recycle the trash on Earth");
+            Console.WriteLine("Wall-E. He has to collect and recycle the trash on Earth.");
         }
     }
 }

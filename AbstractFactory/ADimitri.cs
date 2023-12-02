@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void Act()
         {
-            Console.WriteLine("Atack Rasputin and his creatures");
+            Console.WriteLine("Dimitri. He Atacks Rasputin and his creatures.");
         }
     }
 }

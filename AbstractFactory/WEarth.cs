@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void Display()
         {
-            Console.WriteLine("Earth has become full with trash and inhabitabile");
+            Console.WriteLine("Earth. It is full of trash and inhabitabile.");
         }
     }
 }

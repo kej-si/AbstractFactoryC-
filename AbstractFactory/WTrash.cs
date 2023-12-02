@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void Attack()
         {
-            Console.WriteLine("Cover Earth");
+            Console.WriteLine("Trash.");
         }
     }
 }

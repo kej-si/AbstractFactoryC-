@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void Attack()
         {
-            Console.WriteLine("Anastasia is the last Romanov. She must be killed");
+            Console.WriteLine("Rasputin. Anastasia is the last Romanov.He aims to kill her.");
         }
     }
 }

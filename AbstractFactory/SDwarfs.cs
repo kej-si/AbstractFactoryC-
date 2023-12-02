@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void Act()
         {
-            Console.WriteLine("Notify the Prince!!");
+            Console.WriteLine("The 7 Dwarfs. They have to find the Prince.");
         }
     }
 }

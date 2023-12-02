@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void TheDeathWeapon()
         {
-            Console.WriteLine("Only recycling correctly saves Earth");
+            Console.WriteLine("RIcycle. Only recycling correctly saves Earth.");
         }
     }
 }

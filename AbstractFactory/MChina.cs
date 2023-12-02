@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void Display()
         {
-            Console.WriteLine("The war between Mulan and Hun Army is located in China");
+            Console.WriteLine("The war between Mulan and Hun Army is located in China.");
         }
     }
 }

@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void Display()
         {
-            Console.WriteLine("The wich went to the Dwarfs House. Snowwhite fell sick.");
+            Console.WriteLine("The dwarfs house and the forest.");
         }
     }
 }

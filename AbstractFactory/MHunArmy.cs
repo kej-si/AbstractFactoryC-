@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         public void Attack()
         {
-            Console.WriteLine("Lead China Kill the King");
+            Console.WriteLine("Hun Army. They want to tae controll over China and Kill the King.");
         }
     }
 }
