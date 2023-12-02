@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    //the abstract product interface for the Place in the game
     public interface IPlace
     {
-        // abtract product interface
+        //this method is to determine the location of the game (related to the original story)
         void Display();
     }
 }

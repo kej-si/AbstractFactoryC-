@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the wicked specific to WallE
     public class WTrash : IWicked
     {
-        //concrete product
         public void Attack()
         {
             Console.WriteLine("Cover Earth");

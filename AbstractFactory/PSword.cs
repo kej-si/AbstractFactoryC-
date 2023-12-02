@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the weapon specific to Peter Pan
     public class PSword : IWeapon
     {
-        //concrete product
         public void TheDeathWeapon()
         {
             Console.WriteLine("Swords are the element to be used against the Pirates");

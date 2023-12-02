@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the place specific to Mulan
     public class MChina : IPlace
     {
         public void Display()

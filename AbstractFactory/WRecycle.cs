@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the weapon specific to WallE
     public class WRecycle : IWeapon
     {
-        //concrete product
         public void TheDeathWeapon()
         {
             Console.WriteLine("Only recycling correctly saves Earth");

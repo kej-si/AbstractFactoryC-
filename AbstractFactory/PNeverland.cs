@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the place specific to Peter Pan
     public class PNeverland : IPlace
     {
         public void Display()

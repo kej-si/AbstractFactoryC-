@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the hero specific to Mulan
     public class MMulan : IHero
     {
-        //concrete product
         public void Act()
         {
             Console.WriteLine("Fight Hun Army to protect China and the King");

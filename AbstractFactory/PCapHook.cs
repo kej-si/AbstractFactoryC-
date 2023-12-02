@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the wicked specific to Peter Pan
     public class PCapHook : IWicked
     {
-        //concrete product
         public void Attack()
         {
             Console.WriteLine("Kick out of Neverland Peter and the kids");

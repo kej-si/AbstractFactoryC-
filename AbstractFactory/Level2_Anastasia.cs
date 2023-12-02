@@ -7,12 +7,14 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    //Concreate factorie implementation for the 2nd level also known as the Anastasia level.
+    //it inherits the IDisneyFactory so it implements the methods of the interface
     public class Level2_Anastasia : IDisneyFactory
     {
-        //this is another concrete factorie
+        //creating Anastasia's Hero, Villan, Weapon and setting the background
         public IHero CreateHero()
         {
-            return new ADimitri();
+            return new ADimitri(); //returning the specific charater for the level
         }
 
         public IWicked CreateWicked()

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the place specific to Anastasia
     public class APonteAlexandreIII : IPlace
     {
         public void Display()

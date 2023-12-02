@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the weapon specific to Mulan
     public class MKarate : IWeapon
     {
-        //concrete product
         public void TheDeathWeapon()
         {
             Console.WriteLine("Mulan is the top Karate fighter utulize the skill to max");
