@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         //refernce to the IDisneyFactory, to create the game elements
         private readonly IDisneyFactory _cartoonFactory;
-        //the constructor through each the reference taken from the abstract factory is initialized to be utilized later on
+        //the constructor through each the reference taken from the abstract factory is initialized to be utilized later on; globally avaiable
         public GameLevel(IDisneyFactory cartoonFactory)
         {
             _cartoonFactory = cartoonFactory;
@@ -26,6 +26,8 @@ namespace AbstractFactory
             var weapon = _cartoonFactory.CreateWeapon();
             var place = _cartoonFactory.CreatePlace();
 
+            //the message that announces the first level 
+            Console.WriteLine("******************************** Loading Level 1 **********************************************\n");
             //displays the info about the level     
             Console.Write("The Hero of the level is and he should: "); 
             hero.Act();
