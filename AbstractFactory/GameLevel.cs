@@ -27,7 +27,7 @@ namespace AbstractFactory
             var place = _cartoonFactory.CreatePlace();
 
             //the message that announces the first level 
-            Console.WriteLine("******************************** Loading Level 1 **********************************************\n");
+            Console.WriteLine("******************************** Loading Level **********************************************\n");
             //displays the info about the level     
             Console.Write("The Hero of the level is and he should: "); 
             hero.Act();
