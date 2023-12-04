@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the hero specific to Snowwhite
     public class SDwarfs : IHero
     {
-        //concrete product
         public void Act()
         {
-            Console.WriteLine("Notify the Prince!!");
+            Console.WriteLine("The 7 Dwarfs. They have to find the Prince.");
         }
     }
 }

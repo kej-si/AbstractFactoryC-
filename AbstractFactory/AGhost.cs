@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the villan specific to Anastasia
     public class AGhost : IWeapon
     {
-        //concrete product
         public void TheDeathWeapon()
         {
-            Console.WriteLine("Rasputin is kinda dead and he has ghost magical power");
+            Console.WriteLine("Physicall Strength. Rasputin is kinda dead and he has ghost magical power.");
         }
     }
 }

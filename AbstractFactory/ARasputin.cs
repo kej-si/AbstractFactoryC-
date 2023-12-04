@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the villian specific to Anastasia
     public class ARasputin : IWicked
     {
-        //concrete product
         public void Attack()
         {
-            Console.WriteLine("Anastasia is the last Romanov. She must be killed");
+            Console.WriteLine("Rasputin. Anastasia is the last Romanov.He aims to kill her.");
         }
     }
 }

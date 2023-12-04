@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the hero specific to Peter Pan
     public class PChildren : IHero
     {
-        //concrete product
         public void Act()
         {
-            Console.WriteLine("The Pirates are the ones to fight against");
+            Console.WriteLine("The Neverland Kids. They fight against The Pirates.");
         }
     }
 }

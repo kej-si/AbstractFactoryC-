@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the weapon specific to Snowwhite
     public class SPoisonedApple : IWeapon
     {
-        //concrete product
         public void TheDeathWeapon()
         {
-            Console.WriteLine("The witch Poisoned a big shinny juiciy Apple");
+            Console.WriteLine("The big shinny juiciy Poisoned apple from the stepmom Apple.");
         }
     }
 }

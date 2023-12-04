@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the wicked specific to Mulan
     public class MHunArmy : IWicked
     {
-        //concrete product
         public void Attack()
         {
-            Console.WriteLine("Lead China Kill the King");
+            Console.WriteLine("Hun Army. They want to tae controll over China and Kill the King.");
         }
     }
 }

@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    //Concreate factorie implementation for the fifth level also known as the Mulan level.
+    //it inherits the IDisneyFactory so it implements the methods of the interface
     public class Level5_Mulan : IDisneyFactory
     {
-        //this is the concreate factorie
+        //creating Mulan's Hero, Villan, Weapon and setting the background
         public IHero CreateHero()
         {
-            return new MMulan();
+            return new MMulan(); //returning the specific charater for the level
         }
 
         public IWicked CreateWicked()

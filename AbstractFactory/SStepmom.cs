@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
+    // Concrete product class representing the villian specific to Snowwhite
     public class SStepmom : IWicked
     {
-        //concrete product
         public void Attack()
         {
-            Console.WriteLine("Get Snowwhite to eat the poisoned APPLE");
+            Console.WriteLine("The stepmom. Get Snowwhite to eat the poisoned APPLE.");
         }
     }
 }

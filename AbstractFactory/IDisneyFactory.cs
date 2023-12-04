@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 { 
+    //declaring the abstract factory interface
     public interface IDisneyFactory
     {
-    //this is the abstract factory, the interface where I declared the 
+    //methods to create different types of objects respectively the hero; villan; weapon; and the place 
         IHero CreateHero();
         IWicked CreateWicked();
         IWeapon CreateWeapon();
